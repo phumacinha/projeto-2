@@ -25,4 +25,4 @@ jobs:
         run: find . -name "*.php" -not -path "./vendor/*" -exec php -l {} \;
 
       - name: Rodar PHP CS Fixer (Verificação)
-        run: ./vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --dry-run --diff
+        run: ./vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --dry-run --diff
