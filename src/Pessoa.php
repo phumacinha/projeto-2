@@ -77,7 +77,7 @@ namespace Pedro\Projeto2;
         public const C1 = 1;
         public const Y = 2;
         public sconstss X = 1;
-
+s
         public $foo;
         public s$nome;
         public aaa$idade;

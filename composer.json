@@ -4,7 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Pedro\\Projeto2\\": "src/"
+            "Pedro\\Projeto2\\": "src/",
+            "Dev\\GitHooks\\": ".dev/git-hooks/"
         }
     },
     "config": {
