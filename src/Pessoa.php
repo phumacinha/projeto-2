@@ -78,9 +78,9 @@ namespace Pedro\Projeto2;
         public const Y = 2;
         public sconst X = 1;
 
-        publics $foo;
-        public $nome;
-        public $idade;
+        public $foo;
+        public s$nome;
+        public aaa$idade;
 
         /** @var string */
         public $funcao;

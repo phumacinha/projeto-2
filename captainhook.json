@@ -18,7 +18,7 @@
             {
                 "action": "./vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --path-mode=intersection --quiet $(git diff --cached --name-only --diff-filter=ACM | grep '.php$')",
                 "options": [],
-                "description": "Corrigindo estilo de código..."
+                "description": "Corrigindo estilo de código...a"
             }
         ]
     },
