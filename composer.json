@@ -1,9 +1,6 @@
 {
     "name": "pedro/projeto-2",
     "type": "project",
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.4"
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -12,10 +9,14 @@
     },
     "config": {
         "platform": {
-            "php": "7.2.0"
+            "php": "7.2.34"
         }
     },
     "require": {
-        "php": "7.2.0"
+        "php": "7.2.34"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.19",
+        "captainhook/captainhook": "^3.1"
     }
 }
